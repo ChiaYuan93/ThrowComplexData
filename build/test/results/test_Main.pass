@@ -1,0 +1,26 @@
+---
+:source:
+  :path: test
+  :file: test_Main.c
+:successes:
+- :test: test_doThings
+  :line: 11
+  :message: ''
+- :test: test_specialAdd_given_minus_5_and_11_should_return_6
+  :line: 26
+  :message: ''
+- :test: test_specialAdd_given_7_and_18_should_throw_ERR_NUMBER_NOT_NEGATIVE
+  :line: 31
+  :message: ''
+- :test: test_specialAdd_given_minus_5_and_51_should_throw_ERR_NUMBER_TOO_LARGE
+  :line: 46
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout:
+- ''
